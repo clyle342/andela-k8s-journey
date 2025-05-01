@@ -1,0 +1,3 @@
+#/bin/bash
+echo
+tree -d #view just the directories and to suppress listing file names
