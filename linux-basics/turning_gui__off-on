@@ -1,4 +1,5 @@
 #/bin/bash
+#use with caution
 echo
-sudo systemctl stop gdm
-sudo systemctl start gdm
+sudo systemctl stop gdm #shutting down the garaphical interface
+sudo systemctl start gdm #turn the gui on again
