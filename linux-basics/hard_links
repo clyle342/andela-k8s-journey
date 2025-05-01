@@ -1,0 +1,4 @@
+#/bin/bash
+echo
+ln locating_apps locating_apps2 #Note that two files now appear to exist. However, a closer inspection of the file listing shows that this is not quite true.
+ls -li locating_apps locating_apps2 #Hard links are very useful and they save space, but you have to be careful with their use, sometimes in subtle ways.

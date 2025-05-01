@@ -1,0 +1,4 @@
+#/bin/bash
+echo
+which google-chrome  #run this to find out where exactly a perogram is installed (google-chrome)
+whereis google-chrome #If which does not find the program, whereis is a good alternative because it looks for packages in a broader range of system directories
