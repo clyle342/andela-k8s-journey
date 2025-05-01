@@ -1,0 +1,3 @@
+#/bin/bash
+echo
+mkdir sample_directory #it creates a sample directory called 'sample_directory"

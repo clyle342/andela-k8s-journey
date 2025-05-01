@@ -1,0 +1,3 @@
+#/bin/bash
+echo
+rmdir sample_directory #removes the directory called 'sample_directory'
