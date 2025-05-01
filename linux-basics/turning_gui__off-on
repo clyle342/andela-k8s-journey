@@ -1,0 +1,4 @@
+#/bin/bash
+echo
+sudo systemctl stop gdm
+sudo systemctl start gdm
