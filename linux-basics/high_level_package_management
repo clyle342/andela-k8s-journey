@@ -1,0 +1,6 @@
+#/bin/bash
+#debian based high level package management
+echo
+sudo apt update #update package lists
+sudo apt upgrade -y #upgrade all packages that have an update(s) the -y accepts/allows all the updates that are found
+sudo apt install package #installs a certain package with any dependences
