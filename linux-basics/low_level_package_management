@@ -1,0 +1,5 @@
+#/bin/bash
+#low level handles packages directly and individually for debian based eg Ubuntu.
+echo
+sudo dpkg -i package.deb #install an downloaded package i.e deb is a software package always include the file extension i.e .deb.
+sudo dpkg -r package #removing a package note that it doesn't have the deb extension
