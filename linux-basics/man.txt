@@ -1,0 +1,8 @@
+#/bin/bash
+#suppose you run into a problem, no problem. man (abbreviation of manual) will help you.
+#the man program searches, formats and displays the info contained in the man page system
+echo
+man -f #generates the same results as typing whatis
+
+#for more info http://man7.org/linux/man-pages/
+
