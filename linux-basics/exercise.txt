@@ -1,0 +1,4 @@
+Using the upper-level package management system appropriate for your Linux distribution, do the following:
+
+Install the dump package on your system.
+Remove the dump package from your system.
