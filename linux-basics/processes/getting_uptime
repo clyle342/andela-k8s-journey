@@ -1,0 +1,6 @@
+#/bin/bash
+uptime
+w
+top | head -3
+
+#all of the above will ascertain how your system has been up and displays the load averages
