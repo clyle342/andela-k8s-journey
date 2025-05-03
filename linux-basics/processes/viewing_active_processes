@@ -1,0 +1,3 @@
+#/bin/bash
+echo
+ps l #this will show you active processes, note that in other distro, the command may be different
