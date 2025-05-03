@@ -1,0 +1,5 @@
+#/bin/bash
+#ps (process status) provides info about currently running processed keyed by PIS
+ps -u #use this option to display info of processes for a specified username
+ps -ef #to display all processes in the system in full details
+ps -eLf #to display one line of info for every thread
