@@ -1,0 +1,3 @@
+#/bin/bash
+echo
+renice +5 3077 #you can change the priority of a process using renice, include the the desired NI(+5) and the specific PPID (3077)
