@@ -1,0 +1,19 @@
+#/bin/bash
+echo
+top #get constant real-time updates (every two seconds by default)
+#The first line displays a quick summary of what is happening in the system eg
+#How long the system has been up
+#How many users are logged on
+#What is the load average
+#
+#The second line of the top output displays the total number of processes, the number of running, sleeping, stopped, and zombie processes.
+#
+#The third line of the top output indicates how the CPU time is being divided between the users (us) and the kernel (sy) by displaying the percentage of CPU time used for each.
+#
+#Fourth and Fifth Lines of the top Output
+#The fourth and fifth lines of the top output indicate memory usage, which is divided in two categories:
+
+#Physical memory (RAM) – displayed on line 4.
+#Swap space – displayed on line 5.
+#
+#
