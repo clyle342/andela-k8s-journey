@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 
 #a shell script that creates another user
 
