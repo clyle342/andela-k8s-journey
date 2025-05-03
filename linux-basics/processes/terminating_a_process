@@ -1,0 +1,5 @@
+#/bin/bash
+#this command will terminate a process, make sure you note down the specific PID or process name
+#use with caution
+echo
+kill -9 31268
