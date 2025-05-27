@@ -1,0 +1,11 @@
+
+---
+
+### 3. **Initialize Git and Push to GitHub**
+
+#### a. Initialize Git:
+```bash
+git init
+git add .
+git commit -m "Initial commit - Kubernetes Todo App"
+

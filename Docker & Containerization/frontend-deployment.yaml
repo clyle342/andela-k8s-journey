@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: todo-frontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: todo-frontend
+  template:
+    metadata:
+      labels:
+        app: todo-frontend
+    spec:
+      containers:
+        - name: frontend
+          image: kodekloud/todo-frontend
+          ports:
+            - containerPort: 3000
+          env:
+            - name: REACT_APP_API_ENDPOINT
+              value: http://todo-backend
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: todo-frontend
+spec:
+  type: NodePort
+  selector:
+    app: todo-frontend
+  ports:
+    - port: 80
+      targetPort: 3000
+      nodePort: 30080
+
